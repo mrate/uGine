@@ -1,0 +1,12 @@
+{
+  "name": "Grid",
+  "layer": "default",
+  "shader": "grid.ush",
+  "pipeline": {
+    "wireframe": true,
+    "doubleSided": true
+  },
+  "params": {
+    "materialColor": [ 0.9, 0.9, 0.9 ]
+  }
+}

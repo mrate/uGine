@@ -1,0 +1,111 @@
+[submodule "lib/imgui"]
+	path = lib/imgui
+	url = https://github.com/ocornut/imgui.git
+[submodule "lib/glm"]
+	path = lib/glm
+	url = https://github.com/g-truc/glm.git
+[submodule "lib/stb"]
+	path = lib/stb
+	url = https://github.com/nothings/stb.git
+[submodule "lib/assimp"]
+	path = lib/assimp
+	url = https://github.com/assimp/assimp.git
+[submodule "lib/spdlog"]
+	path = lib/spdlog
+	url = https://github.com/gabime/spdlog.git
+[submodule "lib/KTX-Software"]
+	path = lib/KTX-Software
+	url = https://github.com/KhronosGroup/KTX-Software.git
+[submodule "lib/optick"]
+	path = lib/optick
+	url = https://github.com/bombomby/optick.git
+[submodule "lib/VulkanMemoryAllocator"]
+	path = lib/VulkanMemoryAllocator
+	url = https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator.git
+[submodule "lib/VulkanMemoryAllocator-Hpp"]
+	path = lib/VulkanMemoryAllocator-Hpp
+	url = https://github.com/malte-v/VulkanMemoryAllocator-Hpp.git
+[submodule "lib/enkiTS"]
+	path = lib/enkiTS
+	url = https://github.com/dougbinks/enkiTS.git
+[submodule "lib/tlsf"]
+	path = lib/tlsf
+	url = https://github.com/mattconte/tlsf.git
+[submodule "lib/ImGuizmo"]
+	path = lib/ImGuizmo
+	url = https://github.com/CedricGuillemet/ImGuizmo.git
+[submodule "lib/entt"]
+	path = lib/entt
+	url = https://github.com/skypjack/entt.git
+[submodule "lib/pybind11"]
+	path = lib/pybind11
+	url = https://github.com/pybind/pybind11.git
+[submodule "lib/cereal"]
+	path = lib/cereal
+	url = https://github.com/USCiLab/cereal.git
+[submodule "lib/SPIRV-Reflect"]
+	path = lib/SPIRV-Reflect
+	url = https://github.com/KhronosGroup/SPIRV-Reflect.git
+[submodule "lib/json"]
+	path = lib/json
+	url = https://github.com/nlohmann/json.git
+[submodule "lib/meshoptimizer"]
+	path = lib/meshoptimizer
+	url = https://github.com/zeux/meshoptimizer.git
+[submodule "lib/LegitProfiler"]
+	path = lib/LegitProfiler
+	url = https://github.com/Raikiri/LegitProfiler
+[submodule "lib/efsw"]
+	path = lib/efsw
+	url = https://github.com/SpartanJ/efsw.git
+[submodule "lib/fswatch"]
+	path = lib/fswatch
+	url = https://github.com/p-ranav/fswatch.git
+[submodule "lib/filewatch"]
+	path = lib/filewatch
+	url = https://github.com/ThomasMonkman/filewatch.git
+[submodule "lib/IconFontCppHeaders"]
+	path = lib/IconFontCppHeaders
+	url = https://github.com/juliettef/IconFontCppHeaders.git
+[submodule "lib/VulkanMemoryAllocator-Hpp2"]
+	path = lib/VulkanMemoryAllocator-Hpp2
+	url = https://github.com/YaaZ/VulkanMemoryAllocator-Hpp.git
+[submodule "lib/tracy"]
+	path = lib/tracy
+	url = https://github.com/wolfpld/tracy.git
+[submodule "lib/expected"]
+	path = lib/expected
+	url = https://github.com/TartanLlama/expected.git
+[submodule "lib/zpp_bits"]
+	path = lib/zpp_bits
+	url = https://github.com/eyalz800/zpp_bits.git
+[submodule "lib/alpaca"]
+	path = lib/alpaca
+	url = https://github.com/p-ranav/alpaca.git
+[submodule "lib/bitsery"]
+	path = lib/bitsery
+	url = https://github.com/fraillt/bitsery.git
+[submodule "lib/LuaBridge"]
+	path = lib/LuaBridge
+	url = https://github.com/vinniefalco/LuaBridge.git
+[submodule "lib/Lua"]
+	path = lib/Lua
+	url = https://github.com/walterschell/Lua.git
+[submodule "lib/LuaBridge3"]
+	path = lib/LuaBridge3
+	url = https://github.com/kunitoki/LuaBridge3.git
+[submodule "lib/LuaJIT"]
+	path = lib/LuaJIT
+	url = https://github.com/WohlSoft/LuaJIT.git
+[submodule "lib/LuaJitCmake"]
+	path = lib/LuaJitCmake
+	url = https://github.com/WohlSoft/LuaJIT.git
+[submodule "lib/luau"]
+	path = lib/luau
+	url = https://github.com/Roblox/luau.git
+[submodule "lib/googletest"]
+	path = lib/googletest
+	url = https://github.com/google/googletest.git
+[submodule "lib/mimalloc"]
+	path = lib/mimalloc
+	url = https://github.com/microsoft/mimalloc.git

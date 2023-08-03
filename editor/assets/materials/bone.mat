@@ -1,0 +1,13 @@
+{
+  "name": "Bone",
+  "layer": "default",
+  "shader": "bone.ush",
+  "pipeline": {
+    "depthTest": false,
+    "depthWrite": false,
+    "blending": "Translucent"
+  },
+  "params": {
+    "materialColor": [ 0.2, 0.2, 1.0, 0.25 ]
+  }
+}

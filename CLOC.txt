@@ -1,0 +1,30 @@
+$ cloc uGine editor
+
+     100 files
+     200 files
+     300 files
+     400 files
+     468 text files.
+classified 468 files
+Duplicate file check 468 files (449 known unique)
+Unique:      100 files                                          
+Unique:      200 files                                          
+Unique:      300 files                                          
+Unique:      400 files                                          
+     468 unique files.                              
+Counting:  100
+Counting:  200
+Counting:  300
+Counting:  400
+      71 files ignored.
+
+http://cloc.sourceforge.net v 1.60  T=99.37 s (4.0 files/s, 545.7 lines/s)
+-------------------------------------------------------------------------------
+Language                     files          blank        comment           code
+-------------------------------------------------------------------------------
+C++                            163           6066           1421          21833
+C/C++ Header                   222           4083            530          19212
+CMake                           13            153             25            905
+-------------------------------------------------------------------------------
+SUM:                           398          10302           1976          41950
+-------------------------------------------------------------------------------

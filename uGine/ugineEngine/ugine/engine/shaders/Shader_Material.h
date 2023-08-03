@@ -1,0 +1,21 @@
+#ifndef _SHADER_MATERIAL_H_
+#define _SHADER_MATERIAL_H_
+
+// Bindings slots.
+#define DATASET_GLOBAL 0
+#define DATASET_BINDLESS_TEXTURES 1
+#define DATASET_BINDLESS_SAMPLERS 2
+#define DATASET_MATERIAL 3
+#define DATASET_DRAW 4
+
+// Forward pass
+#define SLOT_GLOBAL 0
+#define SLOT_CAMERA 1
+#define SLOT_LIGHTS 2
+#define SLOT_SHADOWS 3
+#define SLOT_LIGHT_GRID 7
+#define SLOT_LIGHT_INDEX 8
+
+#define SLOT_DRAW 0
+
+#endif // _SHADER_MATERIAL_H_

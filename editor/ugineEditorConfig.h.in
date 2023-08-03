@@ -1,0 +1,3 @@
+constexpr int UGINE_EDITOR_VERSION_MAJOR{ @uGineEditor_VERSION_MAJOR@ };
+constexpr int UGINE_EDITOR_VERSION_MINOR{ @uGineEditor_VERSION_MINOR@ };
+constexpr int UGINE_EDITOR_VERSION_FILE{ @uGineEditor_VERSION_PATCH@ };

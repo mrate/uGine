@@ -1,0 +1,3 @@
+#cmakedefine UGINE_VK_PUSH_DESCRIPTORS
+#cmakedefine UGINE_VK_TRACE_ALLOCATIONS
+#cmakedefine UGINE_VK_TRACE_SYNC

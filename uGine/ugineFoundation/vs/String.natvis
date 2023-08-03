@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+	<!--  ugine::StaticString -->
+	<Type Name="ugine::StaticString&lt;*&gt;">
+		<DisplayString>{{ len={size_}, capacity={$T1}, {data_._Elems,s} }}</DisplayString>
+	</Type>
+	
+	<!--  ugine::StringView -->
+	<Type Name="ugine::StringView">
+		<Intrinsic Name="size" Expression="end_-begin_" />
+    	<Intrinsic Name="data" Expression="begin_" />
+		<DisplayString>{{ len={end_-begin_}, {data(),[size()]} }}</DisplayString>
+		<StringView>begin_,[end_-begin_]</StringView>
+		<Expand>
+      		<Item Name="[size]" ExcludeView="simple">size()</Item>
+      		<Item Name="[begin]" ExcludeView="simple">begin_</Item>
+      		<Item Name="[end]" ExcludeView="simple">end_</Item>
+      		<ArrayItems>
+        		<Size>size()</Size>
+        		<ValuePointer>data()</ValuePointer>
+      		</ArrayItems>
+    	</Expand>
+	</Type>
+
+	<!--  ugine::String -->
+	<Type Name="ugine::String">
+		<DisplayString>{{ len={size_}, {capacity_ > 0 ? dynamic_ : static_,s} }}</DisplayString>
+		<Expand>
+			<Item Name="[size]" ExcludeView="simple">size_</Item>
+			<Item Name="[capacity]" ExcludeView="simple">capacity_</Item>
+			<ArrayItems>
+				<Size>size_</Size>
+				<ValuePointer>dynamic_</ValuePointer>
+			</ArrayItems>
+			<ArrayItems>
+				<Size>SMALL_BUFFER_OPTIMIZATION</Size>
+				<ValuePointer>static_</ValuePointer>
+			</ArrayItems>
+		</Expand>
+	</Type>
+</AutoVisualizer>

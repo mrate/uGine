@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+
+	<!-- ugine::Vector -->
+	<Type Name="ugine::BaseVector&lt;*, ugine::detail::DynamicStorage&lt;*&gt;&gt;">
+		<DisplayString>{{ size={size_} }}</DisplayString>
+		<Expand>
+			<Item Name="[size]" ExcludeView="simple">size_</Item>
+			<Item Name="[capacity]" ExcludeView="simple">storage_.capacity_</Item>
+			<ArrayItems>
+				<Size>size_</Size>
+				<ValuePointer>storage_.data_</ValuePointer>
+			</ArrayItems>
+		</Expand>
+	</Type>
+
+	<!-- ugine::HybridVector -->
+	<Type Name="ugine::BaseVector&lt;*, ugine::detail::HybridStorage&lt;*&gt;&gt;">
+		<DisplayString>{{ size={size_} }}</DisplayString>
+		<Expand>
+			<Item Name="[dynamic]" ExcludeView="simple">storage_.dynamicSize_ &gt; 0</Item>
+			<Item Name="[size]" ExcludeView="simple">size_</Item>
+			<Item Name="[capacity]" ExcludeView="simple">storage_.dynamicSize_</Item>
+			<ArrayItems>
+				<Size>size_</Size>
+				<ValuePointer>storage_.dynamicSize_ &gt; 0 ? ($T1*)storage_.dynamic_ : ($T1*)&amp;storage_.static_[0]</ValuePointer>
+			</ArrayItems>
+		</Expand>
+	</Type>
+</AutoVisualizer>

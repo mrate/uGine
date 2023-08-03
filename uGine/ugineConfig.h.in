@@ -1,0 +1,7 @@
+namespace ugine {
+
+constexpr int UGINE_VERSION_MAJOR{ @uGine_VERSION_MAJOR@ };
+constexpr int UGINE_VERSION_MINOR{ @uGine_VERSION_MINOR@ };
+constexpr int UGINE_VERSION_FILE{ @uGine_VERSION_PATCH@ };
+
+}

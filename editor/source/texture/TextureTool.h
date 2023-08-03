@@ -1,0 +1,3 @@
+#pragma once
+
+#define TEXTURE_RESOURCE_ICON ICON_FA_IMAGE

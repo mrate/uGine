@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+	<Type Name="ugine::SlotMap&lt;*&gt;">
+		<DisplayString>{{ size = {m_size} }}</DisplayString>
+		<Expand>
+			<Item Name="[Size]">m_size</Item>
+			<Item Name="[Pages]">m_pages.size()</Item>
+			<Item Name="[Stats]">m_stats</Item>
+		</Expand>
+	</Type>
+	<Type Name="ugine::UniqueType&lt;*,*&gt;">
+		<DisplayString Condition="m_value == 0">{{ null handle }}</DisplayString>
+		<DisplayString>{{ gen={m_value >> 32}, index={m_value &amp; 0xffffffff} ({m_value}) }}</DisplayString>
+	</Type>
+</AutoVisualizer>

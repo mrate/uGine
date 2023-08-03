@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AutoVisualizer xmlns="http://schemas.microsoft.com/vstudio/debugger/natvis/2010">
+	<Type Name="ugine::Path">
+		<DisplayString>{{ {path_} }}</DisplayString>
+		<Expand>
+			<Item Name="[filename]" ExcludeView="simple">filename_</Item>
+			<Item Name="[extension]" ExcludeView="simple">extension_</Item>
+			<Item Name="[parent]" ExcludeView="simple">parent_</Item>
+			<Item Name="[stem]" ExcludeView="simple">stem_</Item>
+		</Expand>
+	</Type>
+</AutoVisualizer>

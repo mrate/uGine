@@ -1,0 +1,1 @@
+git apply vma-hpp2.patch 
